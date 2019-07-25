@@ -1,0 +1,10 @@
+pip3 install docker
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+sudo apt install docker.io
+
+# To pull pythontest latest image from docker hub under spelusi repository
+sudo docker pull seplusi/pythontest:latest
